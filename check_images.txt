@@ -1,0 +1,20 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: All 3 models correctly classified the dog in Dog_01.jpg as a bloodhound
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: None of models classified the upside-down image of the bloodhound correctly. Although VGG and Resnet correctly identified it as a dog, incorrectly classified it as bull mastiff. Alexnet did not identify it as a dog, in fact as an inanimate object -- muzzle.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: All 3 models correctly classified the non-dogs to be not dogs. The picture of a humpback whale were all identified as type of shark by all 3 models. Resnet partially identified the Chinese broccoli as broccoli, VGG as cauliflower, and Alexnet as head cabbage. Interestingly enough, all the classifications belong to the same species as Chinese broccoli, namely Brassica oleracea
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: Based on these 4 images, I would pick Resnet as the best. Resnet was impressive in identifying the vegetable as broccoli, in addition to correctly identifying the 2 dogs. But VGG is a close second with its close classification of cauliflower. Both VGG and Resnet identified the upside down dog as a dog. Alexnet was disappointing by identifying the upside down dog as an inanimate object muzzle.
