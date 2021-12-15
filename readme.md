@@ -1,4 +1,4 @@
-# Image Classification for a City Dog Show
+# Image Classification for Dog Show - Using CNN convolutional neural network to automatically identify objects and classify  breed if needed.
 ## Project Goal
 In this project, you will use a created image classifier to identify dog breeds.
 ## Description:
